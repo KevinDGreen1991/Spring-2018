@@ -1,0 +1,61 @@
+/*
+ * Name: Kevin Green
+ * Lab/task: LAB2 Task 1
+ * Date: 2/13/18
+ */
+ PLEASE CHOOSE WHAT YOU WANT TO DO
+-------------------------------
+ADD
+DELETE
+DISPLAY
+END
+-------------------------
+ADD
+Name: k1
+Age: 1
+Height: 1
+Birthday (#/#/#): 1/1/1
+ADD
+Name: k2
+Age: 2
+Height: 2
+Birthday (#/#/#): 2/2/2
+ADD
+Name: k3
+Age: 3
+Height: 3
+Birthday (#/#/#): 3/3/3
+DISPLAY
+k1 Age: 1, Height: 1.00, Birthday: 1/1/1
+k2 Age: 2, Height: 2.00, Birthday: 2/2/2
+k3 Age: 3, Height: 3.00, Birthday: 3/3/3
+DELETE
+Deleting:
+k1 Age: 1, Height: 1.00, Birthday: 1/1/1
+ADD
+Name: k4
+Age: 4
+Height: 4
+Birthday (#/#/#): 4/4/4
+DISPLAY
+k2 Age: 2, Height: 2.00, Birthday: 2/2/2
+k3 Age: 3, Height: 3.00, Birthday: 3/3/3
+k4 Age: 4, Height: 4.00, Birthday: 4/4/4
+DELETE
+Deleting:
+k2 Age: 2, Height: 2.00, Birthday: 2/2/2
+DELETE
+Deleting:
+k3 Age: 3, Height: 3.00, Birthday: 3/3/3
+DELETE
+Deleting:
+k4 Age: 4, Height: 4.00, Birthday: 4/4/4
+DELETE
+LIST is empty!
+DISPLAY
+LIST is empty!
+ASDFG
+COMMAND NOT IMPLEMENTED!
+END
+Quiting Program
+Process finished with exit code 0

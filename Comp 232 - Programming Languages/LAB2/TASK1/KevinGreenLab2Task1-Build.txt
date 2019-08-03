@@ -1,0 +1,5 @@
+/Volumes/CLion/CLion.app/Contents/bin/cmake/bin/cmake --build "/Volumes/USB DISK/COMP232/LAB2/TASK1/cmake-build-debug" --target TASK1 -- -j 2
+Scanning dependencies of target TASK1
+[ 25%] Building C object CMakeFiles/TASK1.dir/src/main.c.o
+[ 50%] Linking C executable TASK1
+[100%] Built target TASK1

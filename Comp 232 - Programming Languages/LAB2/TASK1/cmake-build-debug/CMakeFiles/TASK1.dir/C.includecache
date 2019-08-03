@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/USB/COMP232/LAB2/TASK1/src/list.c
+stdio.h
+-
+stdlib.h
+-
+list.h
+/Volumes/USB/COMP232/LAB2/TASK1/src/list.h
+
+/Volumes/USB/COMP232/LAB2/TASK1/src/list.h
+
+/Volumes/USB/COMP232/LAB2/TASK1/src/main.c
+stdio.h
+-
+list.h
+/Volumes/USB/COMP232/LAB2/TASK1/src/list.h
+person.h
+/Volumes/USB/COMP232/LAB2/TASK1/src/person.h
+string.h
+-
+stdlib.h
+-
+
+/Volumes/USB/COMP232/LAB2/TASK1/src/person.c
+stdio.h
+-
+person.h
+/Volumes/USB/COMP232/LAB2/TASK1/src/person.h
+stdlib.h
+-
+string.h
+-
+list.h
+/Volumes/USB/COMP232/LAB2/TASK1/src/list.h
+
+/Volumes/USB/COMP232/LAB2/TASK1/src/person.h
+

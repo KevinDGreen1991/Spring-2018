@@ -1,0 +1,66 @@
+/**
+* Name: Kevin Green
+* Lab/task: Lab 8 Task 1
+* Date: 03/14/18
+*/
+
+
+> (add (exp (sub 3.5 (sqrt 15))) (log (remainder(pow 3 (sqrt 20)) 5.2)))
+lex: LPAREN
+lex: FUNC sval = add
+lex: LPAREN
+lex: FUNC sval = exp
+lex: LPAREN
+lex: FUNC sval = sub
+lex: NUMBER dval = 3.500000
+yacc: s_expr ::= NUMBER
+lex: LPAREN
+lex: FUNC sval = sqrt
+lex: NUMBER dval = 15.000000
+yacc: s_expr ::= NUMBER
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr RPAREN
+calc returns 3.872983
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr expr RPAREN
+calc returns -0.372983
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr RPAREN
+calc returns 0.688677
+lex: LPAREN
+lex: FUNC sval = log
+lex: LPAREN
+lex: FUNC sval = remainder
+lex: LPAREN
+lex: FUNC sval = pow
+lex: NUMBER dval = 3.000000
+yacc: s_expr ::= NUMBER
+lex: LPAREN
+lex: FUNC sval = sqrt
+lex: NUMBER dval = 20.000000
+yacc: s_expr ::= NUMBER
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr RPAREN
+calc returns 4.472136
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr expr RPAREN
+calc returns 136.066470
+lex: NUMBER dval = 5.200000
+yacc: s_expr ::= NUMBER
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr expr RPAREN
+calc returns 0.866470
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr RPAREN
+calc returns -0.062246
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr expr RPAREN
+calc returns 0.626430
+lex: EOL
+yacc: program ::= s_expr
+0.626430
+
+> quit
+yacc: s_expr ::= QUIT
+
+Process finished with exit code 0

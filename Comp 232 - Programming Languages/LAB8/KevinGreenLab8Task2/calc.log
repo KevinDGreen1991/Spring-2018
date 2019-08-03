@@ -1,0 +1,10 @@
+lex: EOL
+lex: NUMBER dval = 1.000000
+yacc: s_expr ::= NUMBER
+lex: EOL
+yacc: program ::= s_expr
+lex: EOL
+lex: FUNC sval = add
+lex: FUNC sval = sub
+lex: FUNC sval = sub
+yacc: s_expr ::= QUIT

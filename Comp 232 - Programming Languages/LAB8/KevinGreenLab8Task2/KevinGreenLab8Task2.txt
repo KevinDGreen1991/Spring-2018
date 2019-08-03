@@ -1,0 +1,88 @@
+/**
+* Name: Kevin Green
+* Lab/task: Lab 8 Task 2
+* Date: 03/14/18
+*/
+
+> (exp2 2)
+lex: LPAREN
+lex: FUNC sval = exp2
+lex: NUMBER dval = 2.000000
+yacc: s_expr ::= NUMBER
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr RPAREN
+4.000000
+calc returns 4.000000
+
+lex: EOL
+> yacc: program ::= s_expr
+(cbrt 8)
+lex: LPAREN
+lex: FUNC sval = cbrt
+lex: NUMBER dval = 8.000000
+yacc: s_expr ::= NUMBER
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr RPAREN
+2.000000
+
+> calc returns 2.000000
+lex: EOL
+yacc: program ::= s_expr
+(hypot 2 2)
+lex: LPAREN
+2.828427
+lex: FUNC sval = hypot
+
+lex: NUMBER dval = 2.000000
+> yacc: s_expr ::= NUMBER
+lex: NUMBER dval = 2.000000
+yacc: s_expr ::= NUMBER
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr expr RPAREN
+calc returns 2.828427
+lex: EOL
+yacc: program ::= s_expr
+(log 10)
+lex: LPAREN
+lex: FUNC sval = log
+lex: NUMBER dval = 10.000000
+yacc: s_expr ::= NUMBER
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr RPAREN
+calc returns 1.000000
+lex: EOL
+yacc: program ::= s_expr
+1.000000
+
+> (log 10 10)
+lex: LPAREN
+lex: FUNC sval = log
+lex: NUMBER dval = 10.000000
+1.000000
+yacc: s_expr ::= NUMBER
+
+lex: NUMBER dval = 10.000000
+> yacc: s_expr ::= NUMBER
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr expr RPAREN
+calc returns 1.000000
+lex: EOL
+yacc: program ::= s_expr
+(log 2 2)
+lex: LPAREN
+lex: FUNC sval = log
+lex: NUMBER dval = 2.000000
+yacc: s_expr ::= NUMBER
+lex: NUMBER dval = 2.000000
+yacc: s_expr ::= NUMBER
+lex: RPAREN
+yacc: s_expr ::= LPAREN FUNC expr expr RPAREN
+calc returns 1.000000
+lex: EOL
+yacc: program ::= s_expr
+1.000000
+
+> quit
+yacc: s_expr ::= QUIT
+
+Process finished with exit code 0

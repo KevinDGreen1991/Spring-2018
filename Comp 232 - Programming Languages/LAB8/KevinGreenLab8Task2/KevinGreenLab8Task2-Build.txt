@@ -1,0 +1,14 @@
+/**
+* Name: Kevin Green
+* Lab/task: Lab 8 Task 1
+* Date: 03/14/18
+*/
+
+[ 16%] [FLEX][calcScanner] Building scanner with flex 2.5.35
+[ 33%] [BISON][calcParser] Building parser with bison 2.3
+Scanning dependencies of target calc
+[ 83%] Building C object CMakeFiles/calc.dir/calcScanner.c.o
+[ 83%] Building C object CMakeFiles/calc.dir/calcParser.c.o
+[ 83%] Building C object CMakeFiles/calc.dir/calc/calc.c.o
+[100%] Linking C executable calc
+[100%] Built target calc

@@ -1,0 +1,13 @@
+w l d + - * / % = ; ( ) token
+1 2 3 4 5 6 7 8 9 10 11 12 INVALID
+a 2 a a a a a a a a a a IDENT
+a a 3 a a a a a a a a a NUMBER
+a a a a a a a a a a a a PLUS
+a a a a a a a a a a a a MINUS
+a a a a a a a a a a a a MULT
+a a a a a a a a a a a a DIV
+a a a a a a a a a a a a MOD
+a a a a a a a a a a a a ASSIGNMENT
+a a a a a a a a a a a a SEMICOLON
+a a a a a a a a a a a a LPAREN
+a a a a a a a a a a a a RPAREN

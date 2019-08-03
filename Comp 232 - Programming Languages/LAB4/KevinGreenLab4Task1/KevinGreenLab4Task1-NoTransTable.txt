@@ -1,0 +1,9 @@
+/**
+* Name: Kevin Green
+* Lab/task: Lab 4 Task 1
+* Date: 02/27/18
+**/
+
+/Volumes/USB/COMP232/LAB4/KevinGreenLab4Task1/cmake-build-debug/KevinGreenLab4Task1
+--INVALID NUMBER OF ARGUMENTS--
+Process finished with exit code 0

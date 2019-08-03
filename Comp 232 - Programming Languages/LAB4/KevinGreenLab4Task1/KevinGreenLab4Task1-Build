@@ -1,0 +1,11 @@
+/**
+* Name: Kevin Green
+* Lab/task: Lab 4 Task 1
+* Date: 02/28/18
+**/
+
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake --build /Volumes/USB/COMP232/LAB4/KevinGreenLab4Task1/cmake-build-debug --target KevinGreenLab4Task1 -- -j 4
+Scanning dependencies of target KevinGreenLab4Task1
+[ 33%] Building C object CMakeFiles/KevinGreenLab4Task1.dir/src/main.c.o
+[ 66%] Linking C executable KevinGreenLab4Task1
+[100%] Built target KevinGreenLab4Task1

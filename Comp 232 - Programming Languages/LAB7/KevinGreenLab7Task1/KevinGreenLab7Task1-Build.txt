@@ -1,0 +1,4 @@
+Scanning dependencies of target flex_t1
+[ 16%] Building C object CMakeFiles/flex_t1.dir/src/flex_t1.c.o
+[ 33%] Linking C executable flex_t1
+[100%] Built target flex_t1

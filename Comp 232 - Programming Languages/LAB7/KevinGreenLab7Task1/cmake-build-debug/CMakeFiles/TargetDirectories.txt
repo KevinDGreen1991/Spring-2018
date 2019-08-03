@@ -1,0 +1,3 @@
+/Volumes/USB/COMP232/LAB7/KevinGreenLab7Task1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Volumes/USB/COMP232/LAB7/KevinGreenLab7Task1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Volumes/USB/COMP232/LAB7/KevinGreenLab7Task1/cmake-build-debug/CMakeFiles/flex_t1.dir

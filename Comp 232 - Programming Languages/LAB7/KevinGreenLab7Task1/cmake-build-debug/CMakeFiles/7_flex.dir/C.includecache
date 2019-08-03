@@ -1,0 +1,52 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/flex_t1.h
+stdio.h
+-
+
+/Users/aj/Dropbox (CSUCI)/Teaching/Spring2018/COMP232-S18/labs/lab_7_flex/lab7_flex_t1/cmake-build-debug/lexer.c
+stdio.h
+-
+string.h
+-
+errno.h
+-
+stdlib.h
+-
+inttypes.h
+-
+flex_t1.h
+/Users/aj/Dropbox (CSUCI)/Teaching/Spring2018/COMP232-S18/labs/lab_7_flex/lab7_flex_t1/cmake-build-debug/flex_t1.h
+unistd.h
+-
+
+/Users/aj/Dropbox (CSUCI)/Teaching/Spring2018/COMP232-S18/labs/lab_7_flex/lab7_flex_t1/cmake-build-debug/parser.c
+stddef.h
+-
+libintl.h
+-
+alloca.h
+-
+malloc.h
+-
+stdlib.h
+-
+stdlib.h
+-
+stdio.h
+-
+
+/Users/aj/Dropbox (CSUCI)/Teaching/Spring2018/COMP232-S18/labs/lab_7_flex/lab7_flex_t1/src/flex_t1.c
+flex_t1.h
+/Users/aj/Dropbox (CSUCI)/Teaching/Spring2018/COMP232-S18/labs/lab_7_flex/lab7_flex_t1/src/flex_t1.h
+
+/Users/aj/Dropbox (CSUCI)/Teaching/Spring2018/COMP232-S18/labs/lab_7_flex/lab7_flex_t1/src/flex_t1.h
+stdio.h
+-
+

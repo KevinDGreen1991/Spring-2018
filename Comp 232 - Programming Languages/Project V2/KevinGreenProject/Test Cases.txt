@@ -1,0 +1,11 @@
+((let (f 3) (g 5)) (add f g))  working
+((let (f lambda (x y) (add x y))) (f 1 2))     working
+((let (f lambda (x y) (add x y))) (mult 2 (f 1 2)))     working
+((let (f lambda (x y) (add x y))) (f (f 1 2) 4))        not working
+((let (f lambda (x y) (add x y))) (f 4 (f 1 2)))        working
+((let (f lambda (x y) (add x y))) (add (f 1 2) (f 3 4)))    working
+((let (f lambda (x y) (add x y)) (g lambda (x y) (add x y))) (f 1 (g 1 2)))
+((let (c 1) (f lambda (x y) (add x y))) (f 1 2))
+
+((let (f lambda (x y) (add x y)) (g 5)) (add f g))
+((let (f lambda (x y) (add x y)) (g lambda (x y) (add x y))) (add (f 1 2) (g 3 4))) Working

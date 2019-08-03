@@ -1,0 +1,33 @@
+> ((let (myA 1) (myB 2)) (cond (smaller myA myB) (print myA) (print myB)))  //Due to the way I build my tree with conditional statements, it will not recognize variables in the conditional statement, as it evaluates the conditional during build time and returns the appropriate
+myA SYMBOL not found!
+myB SYMBOL not found!
+2.00
+FINAL VALUE = 2.000000
+
+> ((let (myA 3) (myB 4)) (cond (smaller 1 2) (print myA) (print myB)))
+3.00
+FINAL VALUE = 3.000000
+
+> ((let (myA 3) (myB 4)) (cond (smaller 3 2) (print myA) (print myB)))
+4.00
+FINAL VALUE = 4.000000
+
+> ((let (myA 3) (myB 4)) (cond (equal 1 1) (print myA) (print myB)))
+3.00
+FINAL VALUE = 3.000000
+
+> ((let (myA 3) (myB 4)) (cond (equal 1 2) (print myA) (print myB)))
+4.00
+FINAL VALUE = 4.000000
+
+> ((let (myA 3) (myB 4)) (cond (larger 3 2) (print myA) (print myB)))
+3.00
+FINAL VALUE = 3.000000
+
+> ((let (myA 3) (myB 4)) (cond (larger 1 2) (print myA) (print myB)))
+4.00
+FINAL VALUE = 4.000000
+
+> ((let (myA 3) (myB 4)) (cond (smaller (add 1 2) (add 3 4)) (print myA) (print myB)))
+3.00
+FINAL VALUE = 3.000000

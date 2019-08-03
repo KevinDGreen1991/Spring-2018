@@ -1,0 +1,18 @@
+/Volumes/CLion/CLion.app/Contents/bin/cmake/bin/cmake --build "/Volumes/USB/COMP232/Project V2/KevinGreenProject/cmake-build-debug" --target cilisp -- -j 2
+[ 33%] [BISON][ciLispParser] Building parser with bison 2.3
+[ 33%] [FLEX][ciLispScanner] Building scanner with flex 2.5.35
+ciLispSrc/ciLisp.y: conflicts: 2 shift/reduce
+Scanning dependencies of target cilisp
+[ 66%] Building C object CMakeFiles/cilisp.dir/ciLispScanner.c.o
+[ 66%] Building C object CMakeFiles/cilisp.dir/ciLispSrc/ciLisp.c.o
+[ 83%] Building C object CMakeFiles/cilisp.dir/ciLispParser.c.o
+/Volumes/USB/COMP232/Project V2/KevinGreenProject/cmake-build-debug/ciLispParser.c:1662:6: warning: code will never be executed [-Wunreachable-code]
+     goto yyerrorlab;
+     ^~~~~~~~~~~~~~~
+/Volumes/USB/COMP232/Project V2/KevinGreenProject/cmake-build-debug/ciLispParser.c:1661:21: note: silence by adding parentheses to mark code as explicitly dead
+  if (/*CONSTCOND*/ 0)
+                    ^
+                    /* DISABLES CODE */ ( )
+1 warning generated.
+[100%] Linking C executable cilisp
+[100%] Built target cilisp

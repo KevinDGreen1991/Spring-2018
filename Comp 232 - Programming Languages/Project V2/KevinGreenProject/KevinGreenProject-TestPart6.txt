@@ -1,0 +1,32 @@
+> ((let (a 100)) (cond (smaller (rand) 100) (add a 2) (sub a 2)))
+FINAL VALUE = 98.000000
+
+> ((let (integer a (read)) (real b (read))) (print a b))
+read a := 3
+read b := 5.0
+3
+5.00
+FINAL VALUE = 5.000000
+
+> NULL NODE RECIEVED! //This is a bug; program runs like normal save for the fact it spits out NULL NODE RECIEVED afterwards as can be seen when we try to run a new line of code. This is because the code believes we are trying to parse an empty line after completing the read function which performs as needed otherwise
+> (add 1 2)
+FINAL VALUE = 3.000000
+
+> (add 1 2 3 4 5)
+FINAL VALUE = 15.000000
+
+> (mult 1 2 3 4 5)
+FINAL VALUE = 120.000000
+
+> (sub 1 2 3 4 5)
+WARNING: too many parameters for the function <SUB>
+FINAL VALUE = -1.000000
+
+> (sqrt 1 2 3 4 5)
+WARNING: too many parameters for the function <SQRT>
+FINAL VALUE = 1.000000
+
+> (sub 1)
+ERROR: too few parameters for the function <SUB>
+FINAL VALUE = 0.000000
+

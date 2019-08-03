@@ -1,0 +1,17 @@
+> ((let (real myFunc lambda (x y) (mult (add x 5) (sub y 2)))) (sub (myFunc 3 5) 2))
+FINAL VALUE = 22.000000
+
+> ((let (f lambda (x y) (add x y))) (f (sub 5 2) (mult 2 3)))
+FINAL VALUE = 9.000000
+
+> ((let (a 1) (f lambda (x y) (add x y)))(f 1 (f 2 3)))
+FINAL VALUE = 6.000000
+
+> ((let (a 1) (f lambda (x y) (add x y)))(f 1))
+TOO FEW ARGUMENTS!
+EMPTY STACK!
+FINAL VALUE = 1.000000
+
+> ((let (a 1) (f lambda (x y) (add x y)))(f 1 (f 2 3 5)))
+TOO MANY ARGUMENTS!
+FINAL VALUE = 6.000000

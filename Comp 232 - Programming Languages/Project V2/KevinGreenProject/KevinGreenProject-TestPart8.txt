@@ -1,0 +1,38 @@
+> ((let (a 1) (f lambda (x y) (add x y)))(f 1 (f 2 3)))
+FINAL VALUE = 6.000000
+
+> ((let (a 3) (f lambda (x y) (add x y)))(f a (f 2 3)))
+FINAL VALUE = 8.000000
+
+> ((let (f lambda (x y) (add x y))) (add (f 1 2) (f 3 4)))
+FINAL VALUE = 10.000000
+
+> ((let (f lambda (x y) (add x y)))(f 1 (f 2 3)))
+FINAL VALUE = 6.000000
+
+> ((let (f lambda (x y) (add x y)))(f 3 (f 2 3)))
+FINAL VALUE = 8.000000
+
+> ((let (f lambda (x y) (add x y))(a 1))(f 6 (f 2 3)))
+FINAL VALUE = 11.000000
+
+> ((let (f lambda (x y) (add x y)) (g lambda (x y) (add x y))) (add (f 1 2) (g 3 4)))
+FINAL VALUE = 10.000000
+
+> ((let (f lambda (x y) (add x y)) (g lambda (x y) (add x y))) (add (f 3 2) (g 3 4)))
+FINAL VALUE = 12.000000
+
+> ((let (f lambda (x y) (add x y)) (g lambda (x y) (add x y))) (f 1 (g 1 2)))
+FINAL VALUE = 4.000000
+
+> ((let (f lambda (x y) (add x y)) (g lambda (x y) (add x y))) (f 3 (g 1 2)))
+FINAL VALUE = 6.000000
+
+> ((let (f lambda (x y) (add x y)))(f 1 (f 2 (f 3 (f 4 (f 5 (f 6 (f 7 8)))))))) //sum from 1 to 8
+FINAL VALUE = 36.000000
+
+> ((let (f lambda (x y) (add x y)))(f 1 (f 2 (f 3 (f 4 (f 5 (f 6 (f 7 (f 8 (f 9 (f 10 11))))))))))) //sum from 1 to 11
+FINAL VALUE = 66.000000
+
+> ((let (f lambda (x y) (mult x y)))(f 1 (f 2 (f 3 (f 4 (f 5 (f 6 (f 7 (f 8 (f 9 (f 10 11))))))))))) // 11 factorial
+FINAL VALUE = 39916800.000000

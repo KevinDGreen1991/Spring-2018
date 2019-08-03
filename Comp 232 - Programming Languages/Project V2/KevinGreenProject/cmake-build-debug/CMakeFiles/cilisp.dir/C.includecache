@@ -1,0 +1,78 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../ciLispSrc/ciLisp.h
+stdio.h
+-
+stdlib.h
+-
+stdarg.h
+-
+string.h
+-
+math.h
+-
+../cmake-build-debug/ciLispParser.h
+../cmake-build-debug/ciLispParser.h
+
+../cmake-build-debug/ciLispParser.h
+
+/Volumes/USB/COMP232/Project V2/KevinGreenProject/ciLispSrc/ciLisp.c
+ciLisp.h
+/Volumes/USB/COMP232/Project V2/KevinGreenProject/ciLispSrc/ciLisp.h
+
+/Volumes/USB/COMP232/Project V2/KevinGreenProject/ciLispSrc/ciLisp.h
+stdio.h
+-
+stdlib.h
+-
+stdarg.h
+-
+string.h
+-
+math.h
+-
+../cmake-build-debug/ciLispParser.h
+/Volumes/USB/COMP232/Project V2/KevinGreenProject/cmake-build-debug/ciLispParser.h
+
+/Volumes/USB/COMP232/Project V2/KevinGreenProject/cmake-build-debug/ciLispParser.c
+ciLisp.h
+/Volumes/USB/COMP232/Project V2/KevinGreenProject/cmake-build-debug/ciLisp.h
+stddef.h
+-
+libintl.h
+-
+alloca.h
+-
+malloc.h
+-
+stdlib.h
+-
+stdlib.h
+-
+stdio.h
+-
+
+/Volumes/USB/COMP232/Project V2/KevinGreenProject/cmake-build-debug/ciLispParser.h
+
+/Volumes/USB/COMP232/Project V2/KevinGreenProject/cmake-build-debug/ciLispScanner.c
+stdio.h
+-
+string.h
+-
+errno.h
+-
+stdlib.h
+-
+inttypes.h
+-
+ciLisp.h
+/Volumes/USB/COMP232/Project V2/KevinGreenProject/cmake-build-debug/ciLisp.h
+unistd.h
+-
+

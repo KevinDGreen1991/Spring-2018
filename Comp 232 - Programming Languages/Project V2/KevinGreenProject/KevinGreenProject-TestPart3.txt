@@ -1,0 +1,12 @@
+> ((let (integer c 5.2)) (add c 2))
+WARNING: incompatible type assignment for variables <c>
+FINAL VALUE = 7.000000
+
+> ((let (integer c 5)) (add c 2))
+FINAL VALUE = 7.000000
+
+> ((let (real c 5)) (add c 2))
+FINAL VALUE = 7.000000
+
+> ((let (real c 5.2)) (add c 2))
+FINAL VALUE = 7.200000

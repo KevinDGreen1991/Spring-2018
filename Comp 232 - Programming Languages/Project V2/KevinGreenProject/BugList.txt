@@ -1,0 +1,6 @@
+Functions may call themselves with the first argument as that function but this returns the wrong value; Believe it has something to do with how the stack handles recursive calls
+Example:
+> ((let (a 1) (f lambda (x y) (add x y)))(f (f 2 3) 1))
+FINAL VALUE = 8.000000
+
+Read function works just fine, has small cosmetic bug where NULL NODE RECIEVED is printed afterwards; Believe it has something to deal with how the prgram reads input

@@ -1,0 +1,7 @@
+> ((let (c 5)) (print c))
+5.00
+FINAL VALUE = 5.000000
+
+> ((let (integer c 5)) (print c))
+5
+FINAL VALUE = 5.000000

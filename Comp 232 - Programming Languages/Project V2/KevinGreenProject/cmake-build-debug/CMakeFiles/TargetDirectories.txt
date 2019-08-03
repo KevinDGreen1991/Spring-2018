@@ -1,0 +1,3 @@
+/Volumes/USB/COMP232/Project V2/KevinGreenProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Volumes/USB/COMP232/Project V2/KevinGreenProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Volumes/USB/COMP232/Project V2/KevinGreenProject/cmake-build-debug/CMakeFiles/cilisp.dir

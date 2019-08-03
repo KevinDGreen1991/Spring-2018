@@ -1,0 +1,3 @@
+/Volumes/USB DISK/COMP232/LAB3/lab4_scanner_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Volumes/USB DISK/COMP232/LAB3/lab4_scanner_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Volumes/USB DISK/COMP232/LAB3/lab4_scanner_1/cmake-build-debug/CMakeFiles/scanner1.dir

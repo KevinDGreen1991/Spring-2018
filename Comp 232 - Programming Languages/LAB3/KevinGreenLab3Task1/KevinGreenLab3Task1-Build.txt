@@ -1,0 +1,11 @@
+/**
+* Name: Your Name(s)
+* Lab/task: Lab 3 Task 1
+* Date: 02/19/18
+**/
+
+/Volumes/CLion/CLion.app/Contents/bin/cmake/bin/cmake --build /Volumes/USB/COMP232/LAB3/KevinGreenLab3Task1/cmake-build-debug --target scanner1 -- -j 2
+Scanning dependencies of target scanner1
+[ 33%] Building C object CMakeFiles/scanner1.dir/src/main.c.o
+[ 66%] Linking C executable scanner1
+[100%] Built target scanner1

@@ -1,0 +1,12 @@
+/**
+* Name: Your Name(s)
+* Lab/task: Lab 3 Task 1
+* Date: 02/19/18
+**/
+
+firstvar = 1;
+{IDENT, firstvar}{ASSIGNMENT, }{NUMBER, 1}{SEMICOLON, }secondvar = 2;
+{IDENT, secondvar}{ASSIGNMENT, }{NUMBER, 2}{SEMICOLON, }repeat(10)
+{REPEAT, }{LPAREN, }{NUMBER, 10}{RPAREN, }thirdvar = 2 * (firstvar + secondvar) / (firstvar + 2);
+{IDENT, thirdvar}{ASSIGNMENT, }{NUMBER, 2}{MULT, }{LPAREN, }{IDENT, firstvar}{PLUS, }{IDENT, secondvar}{RPAREN, }{DIV, }{LPAREN, }{IDENT, firstvar}{PLUS, }{NUMBER, 2}{RPAREN, }{SEMICOLON, }
+Process finished with exit code 15

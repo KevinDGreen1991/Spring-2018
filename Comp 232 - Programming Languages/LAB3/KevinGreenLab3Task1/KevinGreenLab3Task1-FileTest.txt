@@ -1,0 +1,11 @@
+/**
+* Name: Your Name(s)
+* Lab/task: Lab 3 Task 1
+* Date: 02/19/18
+**/
+
+/Volumes/USB/COMP232/LAB3/KevinGreenLab3Task1/cmake-build-debug/scanner1 /Volumes/USB/COMP232/LAB3/KevinGreenLab3Task1/input.txt
+
+{IDENT, firstvar}{ASSIGNMENT, }{NUMBER, 1}{SEMICOLON, }{IDENT, secondvar}{ASSIGNMENT, }{NUMBER, 2}{SEMICOLON, }{REPEAT, }{LPAREN, }{NUMBER, 10}{RPAREN, }{IDENT, thirdvar}{ASSIGNMENT, }{NUMBER, 2}{MULT, }{LPAREN, }{IDENT, firstvar}{PLUS, }{IDENT, secondvar}{RPAREN, }{DIV, }{LPAREN, }{IDENT, firstvar}{PLUS, }{NUMBER, 2}{RPAREN, }{SEMICOLON, }{REPEAT, }{LPAREN, }{IDENT, firstvar}{PLUS, }{NUMBER, 2}{MULT, }{IDENT, secondvar}{RPAREN, }{REPEAT, }{LPAREN, }{IDENT, thirdvar}{RPAREN, }{PRINT, }{IDENT, firstvar}{SEMICOLON, }
+
+Process finished with exit code 0

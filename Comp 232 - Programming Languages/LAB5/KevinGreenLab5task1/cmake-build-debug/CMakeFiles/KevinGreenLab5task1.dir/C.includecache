@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/USB/COMP232/LAB5/KevinGreenLab5task1/src/main.c
+stdio.h
+-
+parser.h
+/Volumes/USB/COMP232/LAB5/KevinGreenLab5task1/src/parser.h
+
+/Volumes/USB/COMP232/LAB5/KevinGreenLab5task1/src/parser.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+parser.h
+/Volumes/USB/COMP232/LAB5/KevinGreenLab5task1/src/parser.h
+
+/Volumes/USB/COMP232/LAB5/KevinGreenLab5task1/src/parser.h
+stdio.h
+-
+stdlib.h
+-
+scanner.h
+/Volumes/USB/COMP232/LAB5/KevinGreenLab5task1/src/scanner.h
+
+/Volumes/USB/COMP232/LAB5/KevinGreenLab5task1/src/scanner.h
+
+/Volumes/USB/COMP232/LAB5/KevinGreenLab5task1/src/scanner_ad_hoc.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+scanner.h
+/Volumes/USB/COMP232/LAB5/KevinGreenLab5task1/src/scanner.h
+

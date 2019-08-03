@@ -1,0 +1,6 @@
+/Volumes/USB/COMP232/LAB5/KevinGreenLab5task1/cmake-build-debug/KevinGreenLab5task1
+firstvar = 1;
+funcProg: funcAssign: ID(firstvar) to INT(1)
+^D
+
+Process finished with exit code 0

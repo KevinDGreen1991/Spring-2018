@@ -1,0 +1,3 @@
+/Volumes/USB/COMP232/LAB5/KevinGreenLab5task1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Volumes/USB/COMP232/LAB5/KevinGreenLab5task1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Volumes/USB/COMP232/LAB5/KevinGreenLab5task1/cmake-build-debug/CMakeFiles/KevinGreenLab5task1.dir

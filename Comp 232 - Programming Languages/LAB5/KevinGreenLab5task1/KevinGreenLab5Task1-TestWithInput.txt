@@ -1,0 +1,130 @@
+/Volumes/USB/COMP232/LAB5/KevinGreenLab5task1/cmake-build-debug/KevinGreenLab5task1 /Volumes/USB/COMP232/LAB5/KevinGreenLab5task1/input.txt
+funcProg: funcAssign: ID(firstvar) to INT(1)
+funcProg: funcAssign: ID(secondvar) to INT(2)
+funcProg: funcRepeat: INT(10) funcProg: funcAssign: ID(thirdvar) to INT(2) multOp(*) ID(firstvar) multOp(+) ID(secondvar) +++TREE FAILED TO TAKE ROOT. CONGRATS. NOW THE TREE IS DEAD. YOU MONSTER+++
+
+funcProg: +++TREE FAILED TO TAKE ROOT. CONGRATS. NOW THE TREE IS DEAD. YOU MONSTER+++
+
+funcProg: funcAssign: ID(firstvar) +++TREE FAILED TO TAKE ROOT. CONGRATS. NOW THE TREE IS DEAD. YOU MONSTER+++
+to INT(2) +++TREE FAILED TO TAKE ROOT. CONGRATS. NOW THE TREE IS DEAD. YOU MONSTER+++
+
+funcProg: +++TREE FAILED TO TAKE ROOT. CONGRATS. NOW THE TREE IS DEAD. YOU MONSTER+++
+
+funcProg: funcRepeat: ID(firstvar) multOp(+) INT(2) multOp(*) ID(secondvar) funcProg: funcRepeat: ID(thirdvar) funcProg: funcPrint: ID(firstvar)
+
+---FULL TREE---
+Traversing Tree.. program: children 2
+Traversing Tree.. statement: children 1
+Traversing Tree.. assignStmt: children 2
+Traversing Tree.. idNode: children 0, data: firstvar
+Traversing Tree.. expr: children 1
+Traversing Tree.. term: children 1
+Traversing Tree.. factor: children 1
+Traversing Tree.. numberNode: children 0, data: 1
+Traversing Tree.. program: children 2
+Traversing Tree.. statement: children 1
+Traversing Tree.. assignStmt: children 2
+Traversing Tree.. idNode: children 0, data: secondvar
+Traversing Tree.. expr: children 1
+Traversing Tree.. term: children 1
+Traversing Tree.. factor: children 1
+Traversing Tree.. numberNode: children 0, data: 2
+Traversing Tree.. program: children 2
+Traversing Tree.. statement: children 1
+Traversing Tree.. repeatStmt: children 2
+Traversing Tree.. expr: children 1
+Traversing Tree.. term: children 1
+Traversing Tree.. factor: children 1
+Traversing Tree.. numberNode: children 0, data: 10
+Traversing Tree.. statement: children 1
+Traversing Tree.. assignStmt: children 2
+Traversing Tree.. idNode: children 0, data: thirdvar
+Traversing Tree.. expr: children 1
+Traversing Tree.. term: children 1
+Traversing Tree.. multOP: children 2, data: *
+Traversing Tree.. term: children 1
+Traversing Tree.. factor: children 1
+Traversing Tree.. numberNode: children 0, data: 2
+Traversing Tree.. factor: children 1
+Traversing Tree.. expr: children 1
+Traversing Tree.. addOP: children 2, data: +
+Traversing Tree.. expr: children 1
+Traversing Tree.. term: children 1
+Traversing Tree.. factor: children 1
+Traversing Tree.. idNode: children 0, data: firstvar
+Traversing Tree.. term: children 1
+Traversing Tree.. factor: children 1
+Traversing Tree.. idNode: children 0, data: secondvar
+Traversing Tree.. program: children 2
+Traversing Tree.. statement: children 0
+Traversing Tree.. program: children 2
+Traversing Tree.. statement: children 1
+Traversing Tree.. assignStmt: children 2
+Traversing Tree.. idNode: children 0, data: firstvar
+Traversing Tree.. expr: children 1
+Traversing Tree.. term: children 1
+Traversing Tree.. factor: children 1
+Traversing Tree.. numberNode: children 0, data: 2
+Traversing Tree.. program: children 2
+Traversing Tree.. statement: children 0
+Traversing Tree.. program: children 2
+Traversing Tree.. statement: children 1
+Traversing Tree.. repeatStmt: children 2
+Traversing Tree.. expr: children 1
+Traversing Tree.. addOP: children 2, data: +
+Traversing Tree.. expr: children 1
+Traversing Tree.. term: children 1
+Traversing Tree.. factor: children 1
+Traversing Tree.. idNode: children 0, data: firstvar
+Traversing Tree.. term: children 1
+Traversing Tree.. multOP: children 2, data: *
+Traversing Tree.. term: children 1
+Traversing Tree.. factor: children 1
+Traversing Tree.. numberNode: children 0, data: 2
+Traversing Tree.. factor: children 1
+Traversing Tree.. idNode: children 0, data: secondvar
+Traversing Tree.. statement: children 1
+Traversing Tree.. repeatStmt: children 2
+Traversing Tree.. expr: children 1
+Traversing Tree.. term: children 1
+Traversing Tree.. factor: children 1
+Traversing Tree.. idNode: children 0, data: thirdvar
+Traversing Tree.. statement: children 1
+Traversing Tree.. printStmt: children 1
+Traversing Tree.. expr: children 1
+Traversing Tree.. term: children 1
+Traversing Tree.. factor: children 1
+Traversing Tree.. idNode: children 0, data: firstvar
+Traversing Tree.. program: children 0
+
+---ABSTRACT TREE---
+Abstract Traverse.. assignStmt: children 2
+Abstract Traverse.. idNode: children 0, data: firstvar
+Abstract Traverse.. numberNode: children 0, data: 1
+Abstract Traverse.. assignStmt: children 2
+Abstract Traverse.. idNode: children 0, data: secondvar
+Abstract Traverse.. numberNode: children 0, data: 2
+Abstract Traverse.. repeatStmt: children 2
+Abstract Traverse.. numberNode: children 0, data: 10
+Abstract Traverse.. assignStmt: children 2
+Abstract Traverse.. idNode: children 0, data: thirdvar
+Abstract Traverse.. multOP: children 2, data: *
+Abstract Traverse.. numberNode: children 0, data: 2
+Abstract Traverse.. addOP: children 2, data: +
+Abstract Traverse.. idNode: children 0, data: firstvar
+Abstract Traverse.. idNode: children 0, data: secondvar
+Abstract Traverse.. assignStmt: children 2
+Abstract Traverse.. idNode: children 0, data: firstvar
+Abstract Traverse.. numberNode: children 0, data: 2
+Abstract Traverse.. repeatStmt: children 2
+Abstract Traverse.. addOP: children 2, data: +
+Abstract Traverse.. idNode: children 0, data: firstvar
+Abstract Traverse.. multOP: children 2, data: *
+Abstract Traverse.. numberNode: children 0, data: 2
+Abstract Traverse.. idNode: children 0, data: secondvar
+Abstract Traverse.. repeatStmt: children 2
+Abstract Traverse.. idNode: children 0, data: thirdvar
+Abstract Traverse.. printStmt: children 1
+Abstract Traverse.. idNode: children 0, data: firstvar
+
+Process finished with exit code 0

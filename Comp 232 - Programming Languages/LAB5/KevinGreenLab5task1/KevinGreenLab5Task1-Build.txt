@@ -1,0 +1,5 @@
+/Volumes/CLion/CLion.app/Contents/bin/cmake/bin/cmake --build /Volumes/USB/COMP232/LAB5/KevinGreenLab5task1/cmake-build-debug --target KevinGreenLab5task1 -- -j 2
+Scanning dependencies of target KevinGreenLab5task1
+[ 25%] Building C object CMakeFiles/KevinGreenLab5task1.dir/src/main.c.o
+[ 50%] Linking C executable KevinGreenLab5task1
+[100%] Built target KevinGreenLab5task1

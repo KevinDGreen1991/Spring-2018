@@ -1,0 +1,23 @@
+Altered to acomidate a binary tree.
+
+<program> ::= <statement> | <program> <statement>
+<statement> ::= <assignStmt> | <repeatStmt> | <printStmt>
+<assignStmt> ::= <id> = <expr> ;
+<repeatStmt> ::= repeat ( <expr> ) <stmt>
+<printStmt> ::= print <expr> ;
+<expr> ::= <term> | <addOP>
+<addOp> ::= <expr>  (+|-) <term>
+<term> ::= <factor> | <multOp>
+<multOp> ::= <term> (*|/) <factor>
+<factor> ::= <id> | <number> | - <factor> | ( <expr> )
+
+from
+
+<program> ::= <statement> | <program> <statement>
+<statement> ::= <assignStmt> | <repeatStmt> | <printStmt>
+<assignStmt> ::= <id> = <expr> ;
+<repeatStmt> ::= repeat ( <expr> ) <stmt>
+<printStmt> ::= print <expr> ;
+<expr> ::= <term> | <expr> <addOp> <term>
+<term> ::= <factor> | <term> <multOp> <factor>
+<factor> ::= <id> | <number> | - <factor> | ( <expr> )
